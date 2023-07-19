@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Besley:ital,wght@1,900&display=swap');
+
+body{
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    font-family:'Archivo Black', sans-serif;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 120px;
+}
+
+.barranegra {
+    background-color: black;
+    width: 100%;
+    height: 200;    
+  
+}
+
+
+.logocdg {
+    width: 115px;
+}
+
+.inicio {
+    background-image: url(/recursos/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo1 { 
+    display: flex;
+    margin-left: 60px;
+    padding-top: 100px;
+}
+
+.btn {
+    font-family:'Archivo Black', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    margin-top: 15px;
+    padding: 10px 40px;
+    display: inline-block;
+}
+
+
+.entrenamiento {
+    background-image: url(/recursos/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo2 { 
+    display: flex;
+    margin-left: 60px;
+    padding-top: 100px;
+}
+
+h2{
+    padding-block-end: 80px;
+}
+
+.coach {
+    background-image: url(/recursos/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+.parrafo3 { 
+    display: flex;
+    margin-left: 60px;
+    padding-top: 100px;
+}
+
+.texto {
+    font-family:'Archivo Black', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    width: 50%;
+    display: block;
+}
+
+.titulo {
+    font-family:'Archivo Black', sans-serif;
+    font-size: 72px;
+    color: white;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-family:'Archivo Black', sans-serif;
+    font-size: 36px;
+    color: white;
+
+}
+
+footer ul{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    }
